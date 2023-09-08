@@ -107,15 +107,3 @@ fun findMissing(arr: Array<Int>): List<Int> {
 Повторяющееся число : 3
 Пропущенное число : 4
 */
-
-//fun printMissingAndAndSIngletons () {
-//    val begin: Int = mixtArray.min()
-//    val end: Int = mixtArray.max() - 1
-//    val tempArray = getTempArray(mixtArray)
-//    for (x in begin..end) {
-//        if (tempArray[x] == 0) {
-//
-//        }
-//    }
-//}
-
