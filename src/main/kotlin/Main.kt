@@ -7,7 +7,7 @@ fun main() {
     println("Отсортированный массив императивно: ")
     printArray(sort_list_imperative(arr))
     println("Отсортированный массив декларативно: ")
-    arr.sortDescending()
+    arr.sortDescending()//Преподаватель подсказал Collections.sort(numbers, Collections.reverseOrder()) 
     printArray(arr)
     println("Задача на поиск одиночки: ")
     val arrayWithDuplicates = arrayOf(4, 3, 2, 4, 1, 3, 2)
